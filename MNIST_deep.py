@@ -3,9 +3,9 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets('/tmp/data/', one_hot=True)
 
-nNodesHL1 = 600
-nNodesHL2 = 900
-nNodesHL3 = 300
+nNodesHL1 = 250
+nNodesHL2 = 150
+nNodesHL3 = 50
 
 nClasses = 10
 batchSize = 100
